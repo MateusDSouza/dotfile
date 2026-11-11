@@ -1,0 +1,3 @@
+Brewfile.current
+Brewfile.lock.json
+*.current.txt

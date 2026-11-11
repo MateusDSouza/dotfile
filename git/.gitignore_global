@@ -1,0 +1,11 @@
+.DS_Store
+.idea/
+*.swp
+.env
+.env.*
+!.env.example
+__pycache__/
+.venv/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/

@@ -95,3 +95,4 @@ Other Python versions: `uv python install 3.12 3.13`; per project: `uv python pi
 
 Never commit them. Machine-specific env vars and tokens go in `~/.zshrc.local`, sourced if it exists.
 # dotfile
+# dotfile

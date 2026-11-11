@@ -1,0 +1,19 @@
+# --- Theme ---
+theme = "HaX0R Gr33N"
+
+# --- Font ---
+# font-family = "JetBrains Mono"
+# font-size = 14
+
+# --- Window & UI ---
+# Adds a bit of breathing room around the edges
+window-padding-x = 10
+window-padding-y = 10
+
+# Slightly transparent background (1.0 is fully opaque)
+# background-opacity = 0.95
+
+# --- Cursor ---
+# Options: block, bar, or underline
+# cursor-style = bar
+# cursor-style-blink = true

@@ -1,0 +1,16 @@
+ms-python.python
+ms-python.vscode-pylance
+ms-python.debugpy
+charliermarsh.ruff
+ms-ossdata.vscode-pgsql
+stateful.runme
+ms-kubernetes-tools.vscode-kubernetes-tools
+hashicorp.terraform
+ms-azuretools.vscode-containers
+redhat.vscode-yaml
+golang.go
+eamodio.gitlens
+tamasfe.even-better-toml
+nefrob.vscode-just-syntax
+ms-vscode-remote.remote-wsl
+ms-vscode-remote.remote-containers

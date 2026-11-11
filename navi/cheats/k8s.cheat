@@ -1,0 +1,21 @@
+% kubernetes, kind
+
+# Create a kind cluster
+kind create cluster --name <name>
+
+# Run cloud-provider-kind (LoadBalancer support; keep it running)
+sudo cloud-provider-kind
+
+# Tail logs of a pod
+kubectl logs -f <pod> -n <namespace>
+
+# Shell into a pod
+kubectl exec -it <pod> -n <namespace> -- sh
+
+# Port-forward a service
+kubectl port-forward svc/<service> <local_port>:<remote_port> -n <namespace>
+
+$ namespace: kubectl get ns --no-headers | awk '{print $1}'
+$ pod: kubectl get pods -n <namespace> --no-headers | awk '{print $1}'
+$ service: kubectl get svc -n <namespace> --no-headers | awk '{print $1}'
+$ name: kind get clusters

@@ -1,0 +1,7 @@
+# Global Python CLI tools, installed with `uv tool install`.
+# Format: <package> [extra uv flags]
+ruff
+pre-commit --with pre-commit-uv
+pytest
+ipython
+mypy

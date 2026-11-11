@@ -1,0 +1,14 @@
+add_newline = false
+
+[kubernetes]
+disabled = false
+format = '[⎈ $context( \($namespace\))]($style) '
+
+[python]
+format = '[${symbol}${version}( \($virtualenv\))]($style) '
+
+[gcloud]
+disabled = true
+
+[aws]
+disabled = true

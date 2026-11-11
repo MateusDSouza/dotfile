@@ -1,0 +1,17 @@
+[include]
+	# name/email live here, outside the public repo:
+	#   git config -f ~/.gitconfig.local user.name  "Mateus De Souza"
+	#   git config -f ~/.gitconfig.local user.email "you@example.com"
+	path = ~/.gitconfig.local
+[init]
+	defaultBranch = main
+[core]
+	excludesfile = ~/.gitignore_global
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	email = desouza.mateus1996@gmail.com
+	name = Mateus De Souza
