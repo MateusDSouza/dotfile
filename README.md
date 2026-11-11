@@ -5,8 +5,7 @@ My dev setup for macOS, Ubuntu and Windows 11: one command takes a fresh machine
 ## Why everything is green
 
 I was 17, watching *The Matrix* trilogy, when I first thought about studying computer science.
-I ended up studying electrical engineering instead, because it was the hardest course at my university,
-and years later I taught myself programming.
+I ended up studying electrical engineering instead and years later I taught myself programming with courses and curiosity.
 
 I kept the green-on-black Matrix look anyway. Those films gave me my first spark of love for computing,
 and the theme reminds me why I'm here.
