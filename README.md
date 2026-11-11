@@ -2,7 +2,7 @@
 
 My dev setup for macOS, Ubuntu and Windows 11: one command takes a fresh machine to a working one.
 
-## Why everything is green
+## Why the terminal is green
 
 I was 17, watching *The Matrix* trilogy, when I first thought about studying computer science.
 I ended up studying electrical engineering instead and years later I taught myself programming with courses and curiosity.
@@ -10,13 +10,10 @@ I ended up studying electrical engineering instead and years later I taught myse
 I kept the green-on-black Matrix look anyway. Those films gave me my first spark of love for computing,
 and the theme reminds me why I'm here.
 
-So the terminal (Ghostty, `HaX0R Gr33N`) and VS Code share the same green palette:
+So the terminal, Ghostty, uses the green `HaX0R Gr33N` theme (`theme` in `ghostty/.config/ghostty/config`).
+Change that line to use your own colours.
 
-- Ghostty: `theme` in `ghostty/.config/ghostty/config`
-- VS Code: `workbench.colorCustomizations` and the token colour rules in `vscode/settings.json`,
-  built from Ghostty's palette, so no theme extension is needed
-
-To use your own colours, change those two places.
+VS Code is not green. It uses the standard GitHub Dark Default theme (`workbench.colorTheme` in `vscode/settings.json`).
 
 ## Install
 
